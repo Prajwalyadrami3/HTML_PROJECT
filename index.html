@@ -18,7 +18,7 @@
 
     <div class="content">
         <div class="form-container">
-            <form>
+            <form #box>
                 <label for="name">Name</label>
                 <input type="text" >
 
@@ -30,6 +30,10 @@
 
                 <label for="phone">Phone</label>
                 <input type="tel" >
+
+                <button value="submit" onclick="onSubmit()">Submit</button>
+                <button value="submit" onclick="onEdit()">Edit</button>
+
             </form>
         </div>
     </div>
